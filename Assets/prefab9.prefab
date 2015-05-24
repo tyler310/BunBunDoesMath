@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21248550}
   - 50: {fileID: 5058480}
   - 114: {fileID: 11460416}
+  - 61: {fileID: 6112612}
   m_Layer: 0
   m_Name: prefab9
   m_TagString: Untagged
@@ -32,19 +33,33 @@ Transform:
   m_RootOrder: 0
 --- !u!50 &5058480
 Rigidbody2D:
+  serializedVersion: 2
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194768}
-  m_Mass: 1
+  m_Mass: 9.99999975e-05
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 1
-  m_FixedAngle: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &6112612
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194768}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 9.42000008, y: 14.3599997}
 --- !u!114 &11460416
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -56,6 +71,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d557ed8eda157cb499707582ae0a3ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2
+  value: 9
 --- !u!212 &21248550
 SpriteRenderer:
   m_ObjectHideFlags: 1
