@@ -1,10 +1,20 @@
 fileFormatVersion: 2
 guid: de8257e3c29c75645862e4b0f16cc978
-timeCreated: 1432428675
+timeCreated: 1432498202
 licenseType: Pro
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - prefab0: {fileID: 146616, guid: 5de020286b997c247a54aed90b2ddf03, type: 2}
+  - prefab1: {fileID: 160774, guid: 7b803f05fba73a14eb18832c00f5f919, type: 2}
+  - prefab2: {fileID: 117746, guid: 6fb47200400702149aa605cbb858c712, type: 2}
+  - prefab3: {fileID: 109984, guid: 2d8e342bffad32044aecd6055445a408, type: 2}
+  - prefab4: {fileID: 151558, guid: e415da75d6d42c843a8bd0b22e1751f7, type: 2}
+  - prefab5: {fileID: 120378, guid: dee8468971223ab418966e2418b8d47d, type: 2}
+  - prefab6: {fileID: 126384, guid: e12c9d7720ba1f54c91a36c7fcc7444d, type: 2}
+  - prefab7: {fileID: 101058, guid: 4ec40eb1fd581cd43a4cefc735ad3403, type: 2}
+  - prefab8: {fileID: 123366, guid: 1fab2d2721d44cb41b94620e91fd87ac, type: 2}
+  - prefab9: {fileID: 194768, guid: 8908b35a08e3b4649ada4ca4aac1efde, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
